@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyflix</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-primary text-black text-center py-4">
+        <h1 style="color: rgb(255, 255, 255);">Beyflix</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-black-50" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black-50" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black-50" href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container mt-4">
+        <section class="mb-4">
+            <h2 class="text-center">Renaissance Film</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/d/df/Renaissance_-_A_Film_by_Beyonc%C3%A9.png" alt="Renaissance" width="205" height="300" class="d-block mx-auto">
+            <p style="text-align: center;">A superestrela pop Beyoncé apresenta seus grandes sucessos no palco e discute o processo criativo por trás de sua turnê mundial.</p>
+        </section>
+        <hr>
+        <section class="mb-4">
+            <h2 class="text-center">Black is King</h2>
+            <img src="https://apostiladecinema.com.br/wp-content/uploads/2020/08/black-is-king-poster-scaled.jpg" alt="BlackIKING" width="205" height="300" class="d-block mx-auto">
+            <p style="text-align: center;">Álbum visual de Beyoncé que reinterpreta lições de "O Rei Leão" para jovens reis e rainhas.</p>
+        </section>
+        <hr>
+        <section class="mb-4">
+            <h2 class="text-center">Homecoming</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/6/65/Beyonce_-_Homecoming_%28poster%29.png" alt="Homecoming" class="d-block mx-auto">
+            <p style="text-align: center;">Homecoming é um documentário de 2019 sobre a cantora norte-americana Beyoncé e sua apresentação no Coachella Valley Music and Arts Festival de 2018. Ele estreou na Netflix em 17 de abril de 2019. </p>
+        </section>
+    </main>
+    <footer class="bg-primary text-black-50 text-center py-3">
+        <p>&copy; <span id="year"></span> Minha Página Web. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
